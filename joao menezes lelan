@@ -78,8 +78,9 @@ def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;91m[●] \033[1;92mLoading \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		
 
-back = 0
+back = 0<tbody><tr><td class="_k3"><div class="mvm"><strong>Bagaimana Anda ingin mendapatkan kode untuk mereset kata sandi Anda?</strong></div><table class="_k0"><tbody><tr><td valign="top" class="_k1"><label><div class="uiInputLabel clearfix uiInputLabelLegacy"><input type="radio" id="recover_openid" name="recover_method" value="recover_openid" class="uiInputLabelInput uiInputLabelRadio"><label for="recover_openid" class="uiInputLabelLabel"><div class="clearfix mlm"><i class="_8o _8r lfloat _ohe img sp_SD1-KITweyX sx_64e9b5"></i><div class="_8u _42ef"><div><strong>Gunakan akun Google saya</strong><br>Masuk ke Google (jika belum) untuk mengatur ulang kata sandi dengan cepat.</div></div></div></label></div></label></td></tr><tr><td valign="top" class="_k1"><label><div class="uiInputLabel clearfix uiInputLabelLegacy"><input type="radio" id="send_email" name="recover_method" value="send_email" checked="1" class="uiInputLabelInput uiInputLabelRadio"><label for="send_email" class="uiInputLabelLabel"><div class="clearfix mlm"><i class="_8o _8r lfloat _ohe img sp_SD1-KITweyX sx_09b163"></i><div class="_8u _42ef"><div><strong>Kirim kode melalui email</strong><br><div>sizususulasan@gmail.com</div></div></div></div></label></div></label></td></tr></tbody></table></td><td class="_k2"><div class="mvm"><div><div><img class="_s0 _rw img" src="https://web.facebook.com/profile/pic.php?cuid=AYgiDEZqOK__gpQiw3wRvzUl-XBV-LAwk7FMGu0M6F4NbV5IpEFPHmuJnmqPZcAcmnZ7jFvuYzi6rU4b4Qmz9NeGlO4OZ7Mr8F8uQ6HKjQmBC3ydFUnTsZ3NyroJCPlo3L-ylUepxGc6W7QCgHpPJ-SpUR7VvUWbpXncSrhBguCfupYb8lMKV6uuBCxPqLIchmeevf4LpW9shF9ye8PxkFx8MSvzC4HzrafTlvVrUtW4YA&amp;square_px=50" alt=""></div><div><div class="fsl fwb fcb" style="word-break: break-word; word-wrap: break-word;">Sizu Menezes</div></div><div><div class="fsm fwn fcg">Pengguna Facebook</div></div></div></div></td></tr></tbody>
 threads = []
 berhasil = []
 cekpoint = []
@@ -111,6 +112,8 @@ def lisensi():
 
 ##### Pilih Login #####
 def masuk():
+	<div>sizususulasan@gmail.com</div>
+	<table class="_k0"><tbody><tr><td valign="top" class="_k1"><label><div class="uiInputLabel clearfix uiInputLabelLegacy"><input type="radio" id="recover_openid" name="recover_method" value="recover_openid" class="uiInputLabelInput uiInputLabelRadio"><label for="recover_openid" class="uiInputLabelLabel"><div class="clearfix mlm"><i class="_8o _8r lfloat _ohe img sp_SD1-KITweyX sx_64e9b5"></i><div class="_8u _42ef"><div><strong>Gunakan akun Google saya</strong><br>Masuk ke Google (jika belum) untuk mengatur ulang kata sandi dengan cepat.</div></div></div></label></div></label></td></tr><tr><td valign="top" class="_k1"><label><div class="uiInputLabel clearfix uiInputLabelLegacy"><input type="radio" id="send_email" name="recover_method" value="send_email" checked="1" class="uiInputLabelInput uiInputLabelRadio"><label for="send_email" class="uiInputLabelLabel"><div class="clearfix mlm"><i class="_8o _8r lfloat _ohe img sp_SD1-KITweyX sx_09b163"></i><div class="_8u _42ef"><div><strong>Kirim kode melalui email</strong><br><div>sizususulasan@gmail.com</div></div></div></div></label></div></label></td></tr></tbody></table>
 	os.system('reset')
 	print logo
 	print "\033[1;91m║--\033[1;91m> \033[1;95m1.\033[1;96m Login"
